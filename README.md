@@ -11,7 +11,7 @@ where left (district, 1) = 'K' and right (district, 1) = 'a';
 ```
 select payment_id, amount, payment_date
 from payment
-where (payment_date between '2005-06-15' and '2005-06-19') and amount > 10;
+where (payment_date between '2005-06-15' and '2005-06-18 23:59:59') and amount > 10;
 ```
 ### Задание 3  
 #### Получите последние пять аренд фильмов.
